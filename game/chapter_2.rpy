@@ -25,10 +25,10 @@ stop music fadeout 2
 "I suppose it's something like that; but I don't limit myself to abandoned structures."
 "This city's unmappable network of architecture is more interesting than anywhere else, I bet."
 "Ely seems a little unsure, but she knows the worse that can happen is we get kicked out. I'll take responsibility in any case."
-
-$ renpy.music.set_volume(1.0, delay=0, channel='music') #Slipped it in here so the AC units have time to stop
-
 "Around the corner at the end of the hallway, and through another door to the right, I hear a sound."
+
+play music keyboard fadein 2 loop
+
 "It's a faint tapping -- someone typing at a keyboard?"
 "Ensuring that Ely is still behind me, I silently approach the door frame and peer around its edge."
 "Indeed, there is someone typing on a keyboard, facing the opposite direction..."
@@ -39,6 +39,10 @@ $ renpy.music.set_volume(1.0, delay=0, channel='music') #Slipped it in here so t
 "We're too slow to react when the door behind us is suddenly flung open, and a man in a business suit exits with us directly in his line of sight."
 Man "Huh? Who are you two?"
 Nemyu "Uh, us? We're..."
+
+stop music
+$ renpy.music.set_volume(1.0, delay=0, channel='music') #Slipped it in here so the AC units have time to stop
+
 "I hear the guy in the room get up from his seat, drawn by the commotion."
 "When he reaches the door and sees us, I avert my gaze bashfully. If we just ran away, they probably wouldn't bother to call the police, so..."
 Guy "Ah, they're with me, don't worry Mike."
