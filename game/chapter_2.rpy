@@ -14,6 +14,7 @@ Nemyu "That might be why. But I don't think I'm the only one that feels that way
 Ely "But I think most people would be too scared to do something like this."
 Nemyu "Only because I can count on you to come with me."
 "Although it wasn't always so."
+scene hallway with dissolve
 "Reaching the open door, I peer inside to find a bland hallway with gray walls."
 "There doesn't seem to be anyone around."
 "I wave my hand for Ely to follow me, then head inside remorselessly."
@@ -114,9 +115,10 @@ Ely "Ah, where are you going?"
 Nemyu "Just gonna look around a little."
 Ely "? Well okay, sure."
 "I leave the slightly confused Ely behind, feeling apologetic."
+scene hallway with dissolve
 "When I hear them continue to talk about their shared interest, I head down the hallway."
-
 "As Max said, the building wasn't a normal office building."
+scene stairwell with dissolve
 "Exploring several floors upwards, I passed by numerous rooms with open doors and no furnishings."
 "There were a few connecting passages to the adjacent building, which appeared to still be used as a workplace for some company."
 "That's probably where the man that spotted us earlier headed."
@@ -125,6 +127,8 @@ Ely "? Well okay, sure."
 "... Though if they were cheap enough, I bet some would be drawn here."
 "I'm on the tenth floor now, if I counted correctly."
 "This staircase may be..."
+play sound metal_door
+scene ferris_wheel with flash
 #[Scene: Opening a door to the roof]
 "The final one."
 "I immediately notice that the wind up here is fairly strong, even on such a calm day."
