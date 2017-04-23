@@ -13,6 +13,6 @@ image hallway = "./backgrounds/hallway.jpg"
 image stairwell = "./backgrounds/stairwell.jpg"
 
 ##Effects##
-$ flash = Fade(.25, 0, .75, color="#fff")
+define flash = Fade(.25, 0, .75, color="#fff")
 
 ##Sprites##
