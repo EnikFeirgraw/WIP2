@@ -1,5 +1,7 @@
 label common4:
 
+scene train_interior with dissolve
+
 "Several major stops away -- almost forty minutes of travel -- is the station for the town where I live."
 "Ever since the price of rent drastically grew within the inner city, I've had to live at this distance from the city I know so well."
 "Kaligaya is a normal town that suffers from the usual troubles of society, unlike the inner city."
@@ -15,7 +17,13 @@ UK "Arriving at Kaligaya Station."
 Nemyu "As expected..."
 "Ely is still next to me, breathing softly in a deep sleep."
 "I quickly rouse her as the train pulls into the station."
+
+play sound train_arriving fadein 3
+
 "The train comes to a halt, and we languidly step off of the empty carriage into the cold night."
+
+scene foggy_street with dissolve
+
 "Looking out into the thick darkness that surrounds the station, I can't help but feel intimidated by the warning I received."
 "Mist swirls across the concrete, ominous under the flickering overhead lights and dim glow of a vending machine"
 "Before I've taken another step, the train door closes behind me, and the electric engine quietly propels it away and into the distance."
@@ -57,3 +65,4 @@ Nemyu "R-right..."
 "Maybe hanging out with Ely again was all I needed after all. No need to dwell on things."
 "I walk up to her side and we follow the road home."
 #[The scene lingers as the two walk away, and after a while, unnatural footsteps (or something creepier?) are heard before the scene ends. Perhaps have one of the street lights shatter. Spooky...]
+jump common5

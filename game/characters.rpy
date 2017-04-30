@@ -27,8 +27,20 @@ define UK = Character("?????")
 #Woman
 define Woman = Character("Woman")
 
+#Old Woman
+define Old_Woman = Character("Old Woman AKA GMILF")
+
 #Man
 define Man = Character("Man")
 
 #Guy
 define Guy = Character("Guy")
+
+#Boss
+define Boss = Character("Boss")
+
+#Girl
+define Girl = Character("Girl")
+
+#Girl 2
+define Girl_2 = Character("Girl 2")

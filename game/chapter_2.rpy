@@ -32,11 +32,19 @@ play music keyboard fadein 2 loop
 
 "It's a faint tapping -- someone typing at a keyboard?"
 "Ensuring that Ely is still behind me, I silently approach the door frame and peer around its edge."
+
+hide Ely
+scene computer_room with dissolve
+
 "Indeed, there is someone typing on a keyboard, facing the opposite direction..."
 "But more striking is what surrounds him."
 "Dozens of monitors, from wide and slim to square and bulky, surround him. Lights blink on a multitude of devices that I don't recognize."
 "Ely, who peers inside as well, is captivated with me by what those screens show."
 "She stifles a small sound with her hand as she seems to realize what the monitors are showing."
+
+scene hallway with dissolve
+show Ely at right
+
 "We're too slow to react when the door behind us is suddenly flung open, and a man in a business suit exits with us directly in his line of sight."
 Man "Huh? Who are you two?"
 Nemyu "Uh, us? We're..."
@@ -70,6 +78,9 @@ Ely "Really? You're doing something with today's satellite launch... right?"
 Guy "Yeah, that's right. C'mon, I'll show you."
 Nemyu "Erm, are you sure that's okay?"
 Guy "Hm? Oh yeah, it's not like I'm involved with the project, haha. Well, you'll see what I mean."
+
+scene computer_room with dissolve
+
 "He sits down on his chair as he begins to explain."
 Guy "The thing about KOL20 is..."
 "I'm fairly certain that's the name of the satellite that launched today."
@@ -115,6 +126,7 @@ Ely "Ah, where are you going?"
 Nemyu "Just gonna look around a little."
 Ely "? Well okay, sure."
 "I leave the slightly confused Ely behind, feeling apologetic."
+hide Ely
 scene hallway with dissolve
 "When I hear them continue to talk about their shared interest, I head down the hallway."
 "As Max said, the building wasn't a normal office building."
@@ -128,7 +140,7 @@ scene stairwell with dissolve
 "I'm on the tenth floor now, if I counted correctly."
 "This staircase may be..."
 play sound metal_door
-scene ferris_wheel with flash
+scene rooftop with flash
 #[Scene: Opening a door to the roof]
 "The final one."
 "I immediately notice that the wind up here is fairly strong, even on such a calm day."
@@ -197,9 +209,12 @@ Nemyu "Seriously though, what kind of place lets a door lock this way?"
 "Was it something that was simply overlooked?"
 
 #[Scene: Door being opened]
+play sound metal_door
+
 Ely "Nemyu! What're you doing up here?"
-Ely "You're not usually the type to get yourself locked out somewhere..."
 "Effortlessly swinging the door open from inside, Ely emerges as I'm leaning against a vent, with Max following behind."
+show Ely at left with moveinleft
+Ely "You're not usually the type to get yourself locked out somewhere..."
 Nemyu "And you'd be right. I left the door open, but someone locked me up here..."
 Ely "What? Who would do something like that!"
 "She looks around with a glare, as if the culprit were waiting around to be caught."
@@ -228,7 +243,11 @@ Nemyu "I'd appreciate that."
 "At least other people can be dealt with, no matter how dangerous they are."
 "When your own body is the assailant that you have to be careful of, you can't help but curse your inability to do anything about it."
 "That's what I fear most."
+
 #Scene Change?
+hide Ely
+scene sunset with dissolve
+
 "With the sun setting and the warmth of the day dissipating into the cloudless sky, Ely and I decide to begin heading home."
 "We left Max behind to explore the festivities some more, and the afternoon soon began drawing to a close."
 "I live rather far from the city center, in a town called Kaligaya. It'll be still be some time on the train before I can get back home for the night."
@@ -278,7 +297,13 @@ Ely "I'll just feel concerned if you're left alone is all..."
 Nemyu "... Alright, I don't mind either way."
 "I decide to give in. It would be nice to spend the night with someone else for once to be honest."
 Ely "Great! I'll just text my mum to let her know!"
+
+scene platform with dissolve
+
 "We're already arriving at the train station, and it's beginning to get dark."
 "I go through the routine of getting tickets and heading to the tracks to wait, ingrained in my mind after so many repetitions."
+
+play sound train_arriving fadein 3
+
 "The train arrives on the busy platform after a few minutes, and we set off for Kaligaya."
 jump common4

@@ -2,8 +2,12 @@
 errors listed below, and try again.
 
 
-File "game/chapter_1.rpy", line 122: expected statement.
-    renpy.music.set_volume('0.3', delay=0, channel='music')
-                                                           ^
+File "game/common5.rpy", line 73: expected statement.
+    ? "..."
+    ^
+
+File "game/common5.rpy", line 120: expected statement.
+    [CHOICE: "Go ahead" -> TBD | "Leave" -> common6.txt]
+                                                        ^
 
 Ren'Py Version: Ren'Py 6.99.12.2.2029
