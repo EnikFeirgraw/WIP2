@@ -138,6 +138,5 @@ menu:
         "Game... Fucking... Over"
         return
     "Retreat to the outside":
-        "Your cowardice upsets Thor, who swiftly smites you"
-        "Game Over...?"
+        jump common6
         return
